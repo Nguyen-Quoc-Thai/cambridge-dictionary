@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "CamDic",
+    "version": "1.0",
+    "description": "Cambridge Dictionary",
+
+    "icons": {
+        "128": "./icons/cambridge.png",
+        "64": "./icons/cambridge.png",
+        "16": "./icons/cambridge.png"
+    },
+    "background": {
+        "scripts": ["pageEvent.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "tabs",
+        "contextMenus"
+    ]
+}
